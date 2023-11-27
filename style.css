@@ -2,7 +2,7 @@ body {
     max-width: 90%;
     margin: 0 auto;
     background-image: linear-gradient(#D3AE47,#e36255);
-
+    font-size: 20px;
 }
 
 header {
@@ -12,14 +12,17 @@ header {
 p {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: darkblue;
-    font-size: 15px;
+    font-size:20px;
     letter-spacing: 1px;
+}
+p:first {
+    font-weight: bold;
 }
 
 a {
     text-decoration: none;
     color: hotpink;
-    font-size: 15px;
+    font-size: 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: 900;
 }
@@ -29,6 +32,7 @@ a:hover{
 a:visited {
     color: darkcyan;
 }
+
 
 q {
     width: 50%;
@@ -64,4 +68,13 @@ tr:nth-child(even) {
 }
 tr {
     background-color: white;
+}
+
+li:first-child {
+    background: url(./assets/bien.png) no-repeat right;
+}
+
+img {
+    float: left;
+    margin: 10px 2em;
 }
