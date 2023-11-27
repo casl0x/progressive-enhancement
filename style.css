@@ -1,3 +1,7 @@
+body {
+    max-width: 90%;
+    margin: 0 auto;
+}
 p {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: darkblue;
@@ -17,4 +21,13 @@ a:hover{
 }
 a:visited {
     color: green;
+}
+
+q {
+    width: 50%;
+    margin: 80px auto;
+    text-size-adjust: 160%;
+    background-color: lightgray;
+    border-left: solid 3px firebrick;
+    padding-left: 30px;
 }
