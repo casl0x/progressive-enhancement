@@ -1,6 +1,8 @@
 body {
     max-width: 90%;
     margin: 0 auto;
+    background-image: linear-gradient(#D3AE47,#e36255);
+
 }
 p {
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -20,14 +22,24 @@ a:hover{
     color: purple;
 }
 a:visited {
-    color: green;
+    color: darkcyan;
 }
 
 q {
     width: 50%;
-    margin: 80px auto;
     text-size-adjust: 160%;
-    background-color: lightgray;
+    background-color: lightgrey;
     border-left: solid 3px firebrick;
     padding-left: 30px;
+    font-style: italic;
+}
+.farmer {
+    border-left: solid 3px green; 
+}
+.villagers {
+    border-left: solid 3px yellow;
+}
+
+blockquote{
+    margin: 80px auto;
 }
