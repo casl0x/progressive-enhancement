@@ -4,6 +4,11 @@ body {
     background-image: linear-gradient(#D3AE47,#e36255);
 
 }
+
+header {
+    background-color: yellow;
+}
+
 p {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: darkblue;
@@ -42,4 +47,21 @@ q {
 
 blockquote{
     margin: 80px auto;
+}
+
+.good {
+    color: green;
+}
+.bad {
+    color: red;
+}
+.bad, .good {
+    text-transform: uppercase;
+}
+
+tr:nth-child(even) {
+    background-color: lightgray;
+}
+tr {
+    background-color: white;
 }
