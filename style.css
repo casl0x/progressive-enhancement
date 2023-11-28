@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
 body {
     max-width: 90%;
     margin: 0 auto;
@@ -12,7 +14,7 @@ header {
 }
 
 p {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Open Sans', sans-serif;
     color: darkblue;
     font-size:20px;
     letter-spacing: 1px;
@@ -25,7 +27,7 @@ a {
     text-decoration: none;
     color: hotpink;
     font-size: 20px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 900;
 }
 a:hover{
