@@ -1,7 +1,9 @@
 body {
     max-width: 90%;
     margin: 0 auto;
-    background-image: linear-gradient(#D3AE47,#e36255);
+    background-image: url(./assets/bg.avif), linear-gradient(#95E9FB,#E742CF);
+    background-size: cover,cover;
+    background-repeat: no-repeat, no-repeat;
     font-size: 20px;
 }
 
@@ -15,7 +17,7 @@ p {
     font-size:20px;
     letter-spacing: 1px;
 }
-p:first {
+p.nature {
     font-weight: bold;
 }
 
@@ -71,7 +73,19 @@ tr {
 }
 
 li:first-child {
-    background: url(./assets/bien.png) no-repeat right;
+    background: url(./assets/bien.png) no-repeat;
+    background-size: 20px;
+    padding-left: 25px;
+}
+li:nth-child(2){
+    background: url(./assets/mal.png) no-repeat;
+    background-size: 20px;
+    padding-left: 25px;
+}
+li:nth-child(3){
+    background: url(./assets/chat.png) no-repeat;
+    background-size: 20px;
+    padding-left: 25px;
 }
 
 img {
